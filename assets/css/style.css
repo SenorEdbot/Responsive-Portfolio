@@ -322,20 +322,75 @@ textarea {
     #rockPaperScissors {
         padding-right: 2%;
     }
-
-
-
 }
 
 /* Media Query for 768px */
 @media screen and (max-width: 768px){
     .wrapper{
-
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        max-width: 95%;
     }
-
-
-
-}
+    .navWrapper {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .navLink1,
+    .navLink1Home {
+        padding-left:50%;
+    }
+    h1,
+    h2 {
+        font-size: 20px;
+    }
+    .homeLogo,
+    .portfolioLogo,
+    .contactLogo {
+        font-size: 20px;
+        width: 28%;
+        font-weight: 600;
+    }
+    p{
+        font-size: 15px;
+    }
+    #hangmanText,
+    #rpgGameText,
+    #triviaGameText,
+    #infoWidgetText,
+    #rockPaperScissorsText
+     {
+        width: 96%;
+        height: 14%;
+        font-size: 14px;
+    }
+    .indexContent img {
+        width: 50%;
+        height: auto;
+    }
+    .portfolioContent img {
+        width: 100%;
+        height: auto;
+    }
+    #Hangman,
+    #rpgGame,
+    #triviaGame,
+    #infoWidget,
+    #rockPaperScissors {
+        margin: 0;
+        padding: 2%;
+        padding-right: 0;
+        padding-left: 0;
+        width:48%;
+    }
+    #rpgGame,
+    #infoWidget {
+        padding-left:2%;
+    }
+    #Hangman,
+    #triviaGame,
+    #rockPaperScissors {
+        padding-right: 2%;
+    }
 
 /* Media Query for 640px */
 @media screen and (max-width: 640px){
