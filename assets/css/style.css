@@ -39,7 +39,8 @@ footer {
     text-align: center;
     font-size: 12px;
     background-color: #666666;
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     border-top: 7px solid #4aaaa5;
 }
 /* paragraph style, mostly for index page */
@@ -58,7 +59,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
-    min-height: calc(100vh - 200px);
     clear: both;
 }
 .navWrapper {
@@ -259,7 +259,68 @@ textarea {
 /* Media Query for 980px */
 @media screen and (max-width: 980px){
     .wrapper{
-
+        margin-left: 5%;
+        max-width: 55%;
+    }
+    .navWrapper {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .navLink1,
+    .navLink1Home {
+        padding-left:50%;
+    }
+    h1,
+    h2 {
+        font-size: 20px;
+    }
+    .homeLogo,
+    .portfolioLogo,
+    .contactLogo {
+        font-size: 20px;
+        width: 28%;
+        font-weight: 600;
+    }
+    p{
+        font-size: 15px;
+    }
+    #hangmanText,
+    #rpgGameText,
+    #triviaGameText,
+    #infoWidgetText,
+    #rockPaperScissorsText
+     {
+        width: 96%;
+        height: 20%;
+        font-size: 14px;
+    }
+    .indexContent img {
+        width: 35%;
+        height: auto;
+    }
+    .portfolioContent img {
+        width: 100%;
+        height: auto;
+    }
+    #Hangman,
+    #rpgGame,
+    #triviaGame,
+    #infoWidget,
+    #rockPaperScissors {
+        margin: 0;
+        padding: 2%;
+        padding-right: 0;
+        padding-left: 0;
+        width:48%;
+    }
+    #rpgGame,
+    #infoWidget {
+        padding-left:2%;
+    }
+    #Hangman,
+    #triviaGame,
+    #rockPaperScissors {
+        padding-right: 2%;
     }
 
 
